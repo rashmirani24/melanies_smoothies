@@ -24,7 +24,7 @@ from snowflake.snowpark.functions import col
 connection_parameters = {
     "account": "PKSMRXO-VGB03693",
     "user": "RASHMIRANI24",
-    "password": "Omnamahshivay140823*",
+    "password": "***********",
     "role": "SYSADMIN",
     "warehouse": "COMPUTE_WH",
     "database": "SMOOTHIES",
