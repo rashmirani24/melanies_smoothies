@@ -33,7 +33,8 @@ connection_parameters = {
 
 
 
-session = Session.builder.configs(connection_parameters).create()
+#session = Session.builder.configs(connection_parameters).create()
+session = cnx.session()
 
 
 #my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT_NAME'))
